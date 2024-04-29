@@ -1,0 +1,76 @@
+﻿
+
+body {
+    background-image: url('../img/backgroud_img.jpg');
+    background-repeat: no-repeat;
+    background-size: 2000px 1000px;
+}
+.main {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+
+}
+
+.text_login {
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container_input_text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_text {
+    background-image: url('../img/backgroud_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.check_and_forgot {
+    width: 280px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.btn_check {
+    color: #fff;
+    display: block;
+}
+
+.psw {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-decoration: none;
+}
+
+.psw:hover {
+    color: #b6ff00;
+}
+

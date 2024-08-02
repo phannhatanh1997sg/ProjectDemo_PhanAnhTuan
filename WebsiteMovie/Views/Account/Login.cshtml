@@ -2,22 +2,33 @@
     ViewBag.Title = "Login";
 }
 <link href="~/Content/css/login.css" rel="stylesheet" />
-<div class="main">
-    
-    <div class="header">
+<div class="login-form">
+    <div class="login-form_header">
         <p class="text_login">
-            LOGIN
+            WELCOME !
         </p>
     </div>
-
-    <div class="container_input_text">
-        <input class="input_text" type="text" placeholder="Username" name="uname" required>
-        <input class="input_text" type="password" placeholder="Password" name="uname" required>
-    </div>
-    <div class="check_and_forgot">
-        <div class="btn_check">
-            <input type="checkbox" checked="checked" name="remember"> Remember me
+    <div class="login-form_body">
+        <div class="login-form_body_header">
+            LOGIN
         </div>
-        <a class="psw" href="#">Forgot password?</a>
+        <div class="login-form_body_body">
+            <div class="container_input_text">
+                <input class="input_text" type="text" placeholder="Username" name="uname" required>
+            </div>
+            <div class="container_input_text">
+                <input class="input_text" type="password" placeholder="Password" name="uname" required>
+            </div>
+            <div class="btn_check">
+                <p><input type="checkbox" checked="checked" name="remember"> Remember me</p>
+                <a href="#">Forgot password</a>
+            </div>
+        </div>      
+        <div class="login-form_body_button">
+            <button class="login-form_body_list-button_button">Submit</button>              
+        </div>
+    </div>
+    <div class="login-form_footer">
+
     </div>
 </div>

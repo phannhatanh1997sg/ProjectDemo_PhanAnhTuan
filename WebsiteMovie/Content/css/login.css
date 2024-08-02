@@ -1,76 +1,84 @@
-﻿
-
-body {
-    background-image: url('../img/backgroud_img.jpg');
-    background-repeat: no-repeat;
-    background-size: 2000px 1000px;
+﻿body {
+    width: 100vw;
+    height: 100vh;
 }
-.main {
-    height: 500px;
-    width: 500px;
+
+.login-form {
+    width: 100%;
+    height: 100%;
     display: flex;
+    justify-content: flex-start;
     flex-direction: column;
+    align-items: center;
+    background-image: url('../img/wp9764009.jpg');
+}
+
+.login-form_header {
+    width: 100%;
+    height: 25%;
+    display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: black;
-
-}
-
-.text_login {
-    font-size: 50px;
-    color: white;
+    color: aliceblue;
+    font-size: 100px;
     font-weight: 600;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    opacity: 0.5;
 }
 
+.login-form_body {
+    border-radius: 10px;
+    height: 50%;
+    width: 400px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.login-form_body_header {
+    background-color: #33b5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
 
 .container_input_text {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 20px 20px 0px 20px;
 }
 
-.input_text {
-    background-image: url('../img/backgroud_img.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 300%;
-    height: 30px;
-    border: none;
-    border-bottom: 1px solid #fff;
-    font-size: 1.2rem;
-    color: #fff;
-    margin-bottom: 20px;
-}
-
-.check_and_forgot {
-    width: 280px;
-    justify-content: space-between;
-    display: flex;
+input.input_text {
+    width: 100%;
+    max-width: 360px;
 }
 
 .btn_check {
-    color: #fff;
+    padding: 20px;
     display: block;
+    display: flex;
+    justify-content: space-between;
 }
 
-.psw {
-    display: block;
-    color: #fff;
-    text-decoration: none;
-    text-decoration: none;
+.login-form_body_list-button {
+    display: flex;
+    justify-content: space-around;
 }
 
-.psw:hover {
-    color: #b6ff00;
+.login-form_body_list-button_button {
+    padding: 6px 100px;
+    border: 2px outset;
+    border-radius: 5px;
+    background-color: #ff3e3e;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+    .login-form_body_list-button_button:hover {
+        background-color: #33b5e5;
+    }
+
+.login-form_body_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
